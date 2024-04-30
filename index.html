@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yummy App</title>
+    <link rel="stylesheet" href="styles/all.min.css" />
+    <link rel="stylesheet" href="styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="icon" type="image/x-icon" href="images/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <div
+      class="layer d-flex justify-content-center align-items-center"
+      id="loader"
+    >
+      <span class="loader"></span>
+    </div>
+   
+    <div class="position-fixed top-0 bottom-0 bg-black sidebar d-flex">
+      <div class="links d-flex flex-column justify-content-between h-100">
+        <ul class="mt-5">
+          <li class="mb-4 list-unstyled">
+            <a class="text-white fs-6 text-decoration-none" href="#" id="search"
+              >Search</a
+            >
+          </li>
+          <li class="mb-4 list-unstyled">
+            <a class="text-white fs-6 text-decoration-none" href="#" id="categories"
+              >Categories</a
+            >
+          </li>
+          <li class="mb-4 list-unstyled">
+            <a class="text-white fs-6 text-decoration-none" href="#" id="area"
+              >Area</a
+            >
+          </li>
+          <li class="mb-4 list-unstyled">
+            <a class="text-white fs-6 text-decoration-none" href="#" id="ingredients"
+              >Ingredients</a
+            >
+          </li>
+          <li class="mb-4 list-unstyled">
+            <a class="text-white fs-6 text-decoration-none" href="#" id="contact"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+        <div class="social">
+          <div class="social-icons ps-2">
+            <i class="fa-brands fa-facebook text-white fs-2 px-2"></i>
+            <i class="fa-brands fa-twitter text-white fs-2 px-2"></i>
+            <i class="fa-solid fa-globe text-white fs-2 px-2"></i>
+          </div>
+          <div class="copyright text-white py-4 mx-3">
+            Copyright Â© 2019 All Rights Reserved.
+          </div>
+        </div>
+      </div>
+      <div
+        class="icons bg-white d-flex flex-column justify-content-between text-center"
+      >
+        <div class="mt-3">
+          <img src="images/logo.png" class="" alt="logo image" />
+        </div>
+        <div>
+          <i class="fa-solid fa-bars fs-2 d-none"></i>
+          <i class="fa-solid fa-xmark fs-2"></i>
+        </div>
+        <div class="d-flex flex-column mb-3">
+          <i class="fa-solid fa-globe fs-2 mb-1"></i>
+          <i class="fa-solid fa-share-nodes fs-2 mb-1"></i>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row g-3 mt-5" id="content">
+      </div>
+    </div>
+
+    <script src="scripts/bootstrap.bundle.min.js"></script>
+    <script src="scripts/jquery-3.7.1.min.js"></script>
+    <script src="scripts/scripts.js"></script>
+  </body>
+</html>
